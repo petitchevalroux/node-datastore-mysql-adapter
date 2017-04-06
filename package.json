@@ -1,26 +1,32 @@
 {
-  "name": "node-project",
+  "name": "@petitchevalroux/datastore-mysql-adapter",
   "version": "1.0.0",
-  "description": "Empty node project",
+  "description": "",
   "scripts": {
     "test": "make tests"
   },
+  "main":"src/adapter.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/petitchevalroux/node-project.git"
+    "url": "git+ssh://github.com/petitchevalroux/node-datastore-mysql-adapter.git"
   },
   "author": "Patrick Poulain",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/petitchevalroux/node-project/issues"
+    "url": "https://github.com/petitchevalroux/node-datastore-mysql-adapter/issues"
   },
-  "homepage": "https://github.com/petitchevalroux/node-project#readme",
+  "homepage": "https://github.com/petitchevalroux/node-datastore-mysql-adapter#readme",
   "devDependencies": {
+    "@petitchevalroux/datastore": "^1.0.0",
     "eslint": "^3.3.1",
     "eslint-plugin-promise": "^2.0.1",
     "istanbul": "^0.4.4",
     "js-beautify": "^1.6.3",
     "mocha": "^3.0.2",
     "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "mysql": "^2.13.0"
   }
 }
